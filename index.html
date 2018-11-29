@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<!--CSS links
+========================================================= -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/default.css">
+
+  <!--icons
+  ========================================================= -->
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -8,32 +16,37 @@
     <body>
       <!-- Header -->
       <header id="home">
-      <!-- Begin navigation -->
+
+      <!-- Begin navigation row -->
         <nav id="nav-row">
-          <a href="#nav-row" class="mobile-btn">show navigation</a>
-          <a href="#nav-row" class="">hide navigation</a>
-        </nav>
-          <ul>
-            <li>Home</li>
-            <li>Bio</li>
-            <li>My Work</li>
-            <li>Contact</li>
-            <li>Blog</li>
+
+          <a href="#nav-row" class="mobile-btn" title="show navigation">Show navigation</a>
+          <a href="#nav-row" class="mobile-btn" title="hide navigation">Hide navigation</a>
+
+          <ul id="nav" class="nav">
+            <li class="scroll" href="#home">Home</a></li>
+            <li class="scroll" href="#about">About Me</a></li>
+            <li class="scroll" href="#work">Work</a></li>
+            <li class="scroll" href="#contact">contact</a></li>
           </ul>
 
-        <!-- End navigation -->
+          </nav>
+
+        <!-- End navigation row-->
 
     <div class="row banner">
-      <div class="banner-text">
-        <h1>Hi, I'm Wanjiru Mwangi.</h1>
-        <h3>I'm a Nairobi-based developer creating awesome games and other cool apps that effectively portray Africa as a booming creative hub full of cultural wealth and identity.</h3>
 
-        <ul class="social-icons">
-          <li><a href="#">import</a>GitHub</li>
-          <li><a href="#"></a>behance</li>
-          <li><a href="#"></a>twitter</li>
-          <li><a href="#"></a>facebook</li>
+      <div class="banner-text">
+        <h1 class="headline">Hi, I'm Wanjiru Mwangi.</h1>
+        <h3>I'm a <span>Nairobi-based developer</span> creating awesome games and other cool apps that effectively portray <span>Africa</span> as a booming creative hub full of <span>cultural wealth and identity.</span></h3>
+
+        <ul class="social-links">
+          <li><a href="#"><i class="fa fa-github"></i></a>github</li>
+          <li><a href="#"><i class="fa fa-behance"></i></a>behance</li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a>twitter</li>
+          <li><a href="#"><i class="fa fa-facebook"></i></a>facebook</li>
         </ul>
+
       </div>
     </div>
     <p>
@@ -45,7 +58,7 @@
 
 
 <!-- Bio Section -->
-  <section>
+  <section id>
     <div class="">
       <div class="">
 

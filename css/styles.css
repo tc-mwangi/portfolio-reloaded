@@ -1,0 +1,24 @@
+body {
+  background: #fff;
+  font-family: 'opensans-regular', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #838C95
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #838C95;
+  font-family: 'opensans-regular', sans-serif;
+  font-weight: normal;
+}
+
+p {
+
+}
+p img{
+
+}
+p.lead {
+
+}
