@@ -140,7 +140,24 @@ header .scroll a:hover { color: #11ABB0; }
 
 /*End of About Me Section */
 
-/*Start of Prortfolio Section */
+/*Start of Portfolio Section */
+
+#portfolio-wrapper .columns { margin-bottom: 36px; }
+.portfolio-item .item-wrap {
+   background: #fff;
+   overflow: hidden;
+   position: relative;
+
+   -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.portfolio-item .item-wrap a {
+   display: block;
+   cursor: pointer;
+}
 
 
 
