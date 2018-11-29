@@ -148,7 +148,11 @@ header .scroll a:hover { color: #11ABB0; }
 
 
 /*Start of Contact Section */
-
+#contact {
+   background: #191919;
+   padding-top: 96px;
+   padding-bottom: 102px;
+   color: #636363;
 
 /*End of Contact Section */
 
