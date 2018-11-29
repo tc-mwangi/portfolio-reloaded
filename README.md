@@ -3,16 +3,16 @@
 #### By Loise Mwangi
 
 ## Description
-The purpose of this project is to create a portfolio landing page that is well structured through the use of HyperText Markup Language(HTML), styled appealingly through Cascading Style Sheets(CSS) and well documented/tracked through Git and GitHub.
+The purpose of this project is to create a portfolio landing page that is well structured through the use of HyperText Markup Language(HTML), styled appealingly through Cascading Style Sheets(CSS) and well documented/tracked/published through Git and GitHub.
 
 ## Dependencies
 * HTML Web browser
 * Adobe Flash Player
 
-## Known Bugs
+## Challenges
 {Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
-## Technologies Used
 
+## Technologies Used
 * Terminal
 * Atom
 * Photoshop
