@@ -7,6 +7,7 @@ header {
   width: 100%;
   background: #ff004d url(images/background01.jpg);
   background-size: cover;
+  background-color: #ff004d;
   text-align: center;
   overflow: scroll;
 }
@@ -22,7 +23,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -89,7 +90,7 @@ header .scroll a:hover { color: #11ABB0; }
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
-#about h2 {
+#about h2, h4 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #ff004d;
    margin-bottom: 12px;
@@ -179,11 +180,11 @@ footer .social-links {
    font-size: 30px;
 }
 footer .social-links li {
-    display: inline-block;
+    display: block;
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #ff004d;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
@@ -192,7 +193,7 @@ footer .social-links li:first-child { margin-left: 0; }
 /*Default Styles */
 
 body {
-  background: #fff;
+  background: #0f0f0f;
   font-family: 'opensans-regular', sans-serif;
   font-weight: normal;
   font-size: 14px;
@@ -200,7 +201,7 @@ body {
   color: #838C95
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   color: #838C95;
   font-family: 'opensans-regular', sans-serif;
   font-weight: normal;

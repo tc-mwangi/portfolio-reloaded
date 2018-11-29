@@ -19,4 +19,4 @@ For any support or queries please contact me through email: lsmwangi@gmail.com.
 
 ### License
 MIT Licence
-Copyright (c) {2018} Loise
+Copyright (c) {2018} Loise Mwangi
