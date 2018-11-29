@@ -1,3 +1,5 @@
+/*Start of Header */
+
 header {
   position: relative;
   height: 800px;
@@ -5,10 +7,10 @@ header {
   width: 100%;
   background: #161415 url(images/background01.jpg)
   no-repeat top center;
-   background-size: cover !important;
+  background-size: cover !important;
 	-webkit-background-size: cover !important;
-   text-align: center;
-   overflow: hidden;
+  text-align: center;
+  overflow: scroll;
 }
 
 header:before {
@@ -67,8 +69,8 @@ header .social li {
 header .social li a { color: #fff; }
 header .social li a:hover { color: #11ABB0; }
 
-/* scrolldown link */
-header .scrolldown a {
+/* scroll link */
+header .scroll a {
    position: absolute;
    bottom: 30px;
    left: 50%;
@@ -87,8 +89,71 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scroll a:hover { color: #11ABB0; }
 
+/*End of Header */
+
+/*Start of About Me Section */
+#about {
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#about a, #about a:visited  { color: #fff; }
+#about a:hover, #about a:focus { color: #11ABB0; }
+
+#about h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#about p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+#about .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+}
+#about .contact-details { width: 41.66667%; }
+#about .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#about .main-col { padding-right: 5%; }
+#about .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#about .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#about .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+/*End of About Me Section */
+
+/*Start of Prortfolio Section */
+
+
+
+/*End of Prortfolio Section */
+
+
+/*Start of Contact Section */
+
+
+/*End of Contact Section */
+
+
+/*Default Styles */
 body {
   background: #fff;
   font-family: 'opensans-regular', sans-serif;
